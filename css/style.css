@@ -833,3 +833,48 @@ button {
 
   color: #f4f4fd;
 }
+@media screen and (min-width: 428px) {
+.hero{
+max-width: 428px;
+}
+.container{
+  width: 428px;
+}
+}
+@media screen and (min-width: 768px) {
+  .hero{
+    max-width: 768px;
+    }
+    .container{
+      width: 768px;
+    }
+    .menu-toggle {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .hero{
+      max-width: 1440px;
+      }
+      .container{
+        width: 1440px;
+      }
+      .menu-toggle {
+        display: none;
+      }
+    }
+    .menu-toggle {
+      min-height: 32px;
+      min-width: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+    }
