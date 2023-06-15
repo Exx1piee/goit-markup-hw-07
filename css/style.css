@@ -186,8 +186,9 @@ button {
 }
 .container {
   width: 100%;
-  padding: 0 15px;
   margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .container-footer {
   width: 1158px;
@@ -836,16 +837,24 @@ button {
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .hero {
     max-width: 428px;
   }
 }
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
   .hero {
     max-width: 768px;
   }
-
+  .team-list {
+    display: flex;
+    
+  }
   .container-li {
     max-width: calc((100% - 30px) / 2);
   }
