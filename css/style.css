@@ -52,6 +52,7 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   border-radius: 4px;
+  margin-bottom: 69px;
 }
 
 .button-footer-checkbox:hover,
@@ -192,7 +193,7 @@ button {
   transform: translateY(0%);
 }
 .container {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -865,7 +866,7 @@ button {
 
   color: #f4f4fd;
 }
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 428px){
   .container {
     max-width: 428px;
     margin-right: auto;
@@ -877,7 +878,7 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/heroimg-mobile.png);
-      max-width: 428px;
+      max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -955,6 +956,7 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
+  .container{max-width: 1440px;}
   .hero {
     max-width: 1440px;
   }
