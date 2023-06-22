@@ -1095,10 +1095,7 @@ body {
   .svg-peopl-avatar {
     margin-left: 19px;
   }
-  .header {
-  padding-bottom: 24px;
-    padding-top: 24px;
-  }
+
   .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -1244,6 +1241,10 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+  .header {
+    padding-bottom: 24px;
+      padding-top: 24px;
+    }
   .footer-form {
     display: inline;
     gap: 24px;
@@ -1413,22 +1414,7 @@ body {
     color: #2e2f42;
     padding-bottom: 8px;
   }
-  @media screen and (min-width: 767px) {
-    .mobile-menu {
-      display: none;
-    }
-    .contact-address {
-      display: none;
-    }
-  }
-  @media screen and (min-width: 1400px) {
-    .mobile-menu {
-      display: none;
-    }
-    .contact-address {
-      display: none;
-    }
-  }
+
   .main-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -2465,6 +2451,10 @@ body {
   .container {
     width: 768px;
   }
+  .header {
+    padding-bottom: 2px;
+      padding-top: 2px;
+    }
   .svg-peopl-avatar {
     margin-left: 16px;
   }
