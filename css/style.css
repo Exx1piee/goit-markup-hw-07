@@ -411,7 +411,6 @@ body {
     color: #2e2f42;
   }
   .header-nav {
-    display: none;
     align-items: center;
   }
   .menu {
@@ -1097,7 +1096,8 @@ body {
     margin-left: 19px;
   }
   .header {
-    height: 70px;
+  padding-bottom: 24px;
+    padding-top: 24px;
   }
   .header-logo {
     font-family: "Raleway", sans-serif;
@@ -1248,7 +1248,9 @@ body {
     display: inline;
     gap: 24px;
   }
-  
+  .menu{
+    display: hidden;
+  }
   .input-footer {
     font-size: 12px;
     line-height: 1.5;
@@ -1632,11 +1634,11 @@ body {
     color: #2e2f42;
   }
   .header-nav {
-    display: none;
+  
     align-items: center;
   }
   .menu {
-    display: flex;
+    display: none;
     gap: 40px;
   }
   .menu-item {
@@ -2472,7 +2474,7 @@ body {
 
     width: 584px;
     gap: 72px 24px;
-    flex-direction: unset;
+  flex-direction: row;
     justify-content: left;
   }
   .footer-checkbox-p {
