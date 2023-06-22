@@ -2792,6 +2792,7 @@ button {
 .footer-socialmedia-ul {
   display: flex;
   gap: 16px;
+  justify-content: left;
 }
 .footer-socialmedia-li {
   width: 40px;
