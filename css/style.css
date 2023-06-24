@@ -2075,21 +2075,14 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
     color: #434455;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
     margin-bottom: 72px;
+    width: 398px;
   }
   .feature-list {
     display: inline-block;
@@ -2461,6 +2454,10 @@ button {
     margin: 0 auto;
     margin-bottom: 48px;
   }
+  .feature-text {
+
+    width:auto;
+  }
   .footer-div-handp {
   margin: 0;
     width: 264px;
@@ -2534,12 +2531,10 @@ button {
   .address-list {
     flex-direction: column;
     gap: 12px;
+    margin-right: 16px;
   }
   .address {
-    margin-right: auto;
     display: flex;
-    position:absolute;
-    right: 0;
 }
 .mobile-menu-open{
   display: none;
@@ -2604,16 +2599,7 @@ button {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
-  .feature-text {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-  }
+
   .features {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -2932,6 +2918,7 @@ button {
     gap: 40px;
 
     flex-direction: row;
+    margin-right:156px;
   }
 
   .address-link:hover,
@@ -3769,10 +3756,7 @@ button {
     width: 40px;
     height: 40px;
   }
-  .address-list {
-    display: flex;
-    gap: 40px;
-  }
+
 
   .address-link:hover,
   .address-link:focus {
@@ -3854,6 +3838,19 @@ button {
   }
   .form-modal-window {
     margin-bottom: 8px;
+  }
+  .feature-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #2e2f42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 8px;
+    text-align:left;
   }
   .input-div-modal-window {
     position: relative;
