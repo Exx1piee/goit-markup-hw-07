@@ -276,6 +276,25 @@ button {
 .mobile-close-btn:focus .btn-close-icon {
   fill: #ffffff;
 }
+.feature-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 .team-img {
   margin: 0 auto;
 }
@@ -375,7 +394,7 @@ button {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   position: relative;
-  padding: 25px;
+
 }
 .header-inner {
   display: flex;
@@ -1023,26 +1042,7 @@ button {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.feature-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  /* identical to box height, or 111% */
 
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-bottom: 8px;
-}
 .filter-btn:hover,
 .filter-btn:focus {
   color: #fff;
@@ -1200,6 +1200,8 @@ button {
   color: #ffffff;
   margin: 0 auto;
   margin-bottom: 48px;
+  display: flex;
+
 }
 
 .button-footer-checkbox {
@@ -1242,10 +1244,7 @@ button {
     margin-right: auto;
     margin-left: auto;
   }
-  .header {
-    padding-bottom: 24px;
-    padding-top: 24px;
-  }
+
   .footer-form {
     display: inline;
     gap: 24px;
@@ -1598,7 +1597,7 @@ button {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    position: relative;
+  
   }
   .header-inner {
     display: flex;
@@ -1665,9 +1664,8 @@ button {
     stroke: #2e2f42;
     padding: 0;
     line-height: 0;
-    margin-left: 30%;
-    position: absolute;
-    right: 2vw;
+  margin-right: auto;
+ 
   }
   .address-link:hover,
   .address-link:focus {
@@ -2251,6 +2249,7 @@ button {
     order: 0;
     flex-grow: 0;
     margin-bottom: 8px;
+    text-align: center;
   }
   .filter-btn:hover,
   .filter-btn:focus {
@@ -2452,9 +2451,43 @@ button {
   .container {
     width: 768px;
   }
+  .hero-title {
+    max-width:496px;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  .footer-div-handp {
+  margin: 0;
+    width: 264px;
+  }
+  .footer-socialmedia {
+    margin-left: 24px;
+  }
   .menu {
     display: flex;
     gap: 40px;
+  }
+  .feature-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: left;
+  }
+  .container-li-customers {
+    width: calc((100% - 24px) / 3);
+    margin: 0 auto;
+    height: 88px;
   }
 .button-footer-checkbox{
   margin-top: auto;
@@ -2476,13 +2509,14 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content:left;
     align-items: baseline;
-    max-width: 768px;
+    max-width: 582px;
+  
   }
   .footer-checkbox-p {
     text-align: left;
-    margin-left: 140px;
+   
   }
 
   .label-footer {
@@ -2511,12 +2545,9 @@ button {
   display: none;
 
 }
+
   }
-  .container-li-customers {
-    width: calc((100% - 24px) / 3);
-    margin: 0 auto;
-    height: 88px;
-  }
+
   .container-h-customers {
     font-weight: 700;
     font-size: 36px;
@@ -2572,39 +2603,12 @@ button {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-  .feature-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    /* identical to box height, or 111% */
 
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-
-    /* NAVY BLUE */
-
-    color: #2e2f42;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
   .feature-text {
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
     line-height: 24px;
-    /* or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-    /* Inside auto layout */
-
+    letter-spacing: 0.32px;
     flex: none;
     order: 1;
     align-self: stretch;
@@ -2637,11 +2641,16 @@ button {
     gap: 12px;
   }
   .mobile-menu-open {
-  
+  margin-bottom: 25px;
+  margin-right: 16px;
+  stroke: #2E2F42;
   }
   .our-works {
     padding-bottom: 120px;
     display: none;
+  }
+  .burger-menu-stroke{
+    stroke: #2E2F42;
   }
   .team-list {
     display: flex;
@@ -2651,6 +2660,7 @@ button {
   }
   .footer-socialmedia {
     text-align: left;
+    width: 208px;
   }
   .logo-footer {
     display: flex;
