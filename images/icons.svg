@@ -28,11 +28,15 @@
                 fill="#4D5AE5" />
         </g>
         <defs>
+            
             <clipPath id="clip0_297080_1787">
                 <rect width="64" height="64" fill="white" />
             </clipPath>
         </defs>
     </symbol>
+<symbol id="icon-burger-menu-phone" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
     <symbol width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" id='laptop'>
 
         <g clip-path="url(#clip0_297080_1794)">
