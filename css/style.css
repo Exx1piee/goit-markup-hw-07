@@ -9,7 +9,9 @@ body {
   background: #fff;
   color: #434455;
 }
-
+.logo-footer {
+  display: flex;
+}
 :root {
   --active-link-main-color: #404bbf;
   --color-title: #2e2f42;
@@ -1068,7 +1070,7 @@ button {
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
-  padding-bottom: 196px;
+  padding-bottom: 96px;
 }
 .logo-footer {
   display: inline-block;
@@ -2269,7 +2271,7 @@ button {
   .footer {
     background-color: #2e2f42;
     padding-top: 100px;
-    padding-bottom: 196px;
+    padding-bottom: 96px;
   }
   .logo-footer {
     display: inline-block;
@@ -2446,6 +2448,9 @@ button {
     width: 552px;
     text-align: center;
   }
+  .footer-socialmedia{
+    margin-left: 24px;
+  }
   .hero-title {
     max-width:496px;
     text-align: center;
@@ -2459,6 +2464,12 @@ button {
   .feature-text {
 
     width:auto;
+  }
+  .logo-footer {
+    display:flex;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 100%;
   }
   .footer-div-handp {
   margin: 0;
@@ -2629,7 +2640,6 @@ padding-bottom: 96px;
     gap: 12px;
   }
   .mobile-menu-open {
-  margin-bottom: 25px;
   margin-right: 16px;
   stroke: #2E2F42;
   }
@@ -2649,9 +2659,6 @@ padding-bottom: 96px;
   .footer-socialmedia {
     text-align: left;
     width: 208px;
-  }
-  .logo-footer {
-    display: flex;
   }
   .header-logo {
     margin-right: 120px;
@@ -3473,7 +3480,7 @@ padding-bottom: 96px;
   .footer {
     background-color: #2e2f42;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     width: auto;
   }
   .logo-footer {
@@ -4335,11 +4342,7 @@ flex-wrap: nowrap;
     margin-bottom: 8px;
   }
 
-  .footer {
-    background-color: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+
 
   .footer-log-two {
     color: #f4f4fd;
